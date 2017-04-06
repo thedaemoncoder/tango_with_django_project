@@ -8,4 +8,5 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^rango/', include('rango.urls')),  # added this to see rango's urls
+    url(r'^rango/about/', include('rango.urls')),  # added this to see rango's urls
 )
